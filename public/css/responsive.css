@@ -1,0 +1,241 @@
+/* Break point 991px */
+
+
+/* Break point 767px */
+ @media screen and (max-width:768px) {
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active-nav .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active-nav .bar:nth-child(1){
+        transform: translateY(6.8px) rotate(45deg);
+        background: #fff;
+    }
+    .hamburger.active-nav .bar:nth-child(3){
+        transform: translateY(-6.8px) rotate(-45deg);
+        background: #fff;
+    }
+    .nav-links{
+        position: absolute;
+        left: -100%;
+        top: 0;
+        width: 100%;
+        padding-block: 20px;
+        text-align: center;
+        background: #8a3ffc;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-links.active-nav{
+        left: 0;
+    }
+    .nav-menu{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-item a{
+        color: #fff;
+    }
+    .nav-item a:hover{
+        color: #fff;
+    }
+    .nav-item a::after{
+        background: #fff;
+    }
+
+    /* Home Page */
+    .img{
+        z-index: -1;
+    }
+    .icons{
+        font-size: 20px;
+    }
+    .top{
+        font-size: 25px;
+    }
+    .name{
+        font-size: 40px;
+    }
+    .animation-text .text{
+        font-size: 25px;
+    }
+    /* About me */
+    .about-content{
+        margin-top: 40px;
+    }
+    .about-text{
+        margin-top: 0px;
+    }
+    .about-text p{
+        font-size: 14px;  
+    }
+    .btn{
+        height: 50px;
+    }
+    /* Skils */
+    .tech-feature{
+        flex-wrap: wrap;
+    }
+    .feature-card{
+        width: 45%;
+        margin-bottom: 0px;
+    }
+    .feature-card:nth-child(3){
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    /* Projects */
+    .project-slider{
+        width: 700px;
+        height: 500px;
+    }
+    .slide-left{
+        margin-top: 70px;
+    }
+    .slide-heading{
+        font-size: 25px;
+    }
+    .slide-subheading{
+        font-size: 12px;
+    }
+    .slide-tech-head{
+        font-size: 25px;
+    }
+    .tech-item{
+        font-size: 12px;
+    }
+    .tech-item span{
+        font-size: 14px;
+    }
+    .cv-home{
+        height: 330px;
+        left: 30px;
+        top: 20px;
+    }
+    .cv-about{
+        height: 280px;
+        right: 10px;
+        bottom: 15px;
+    }
+    .usabilityhub{
+        margin-top: 10px;
+        height: 350px;
+    }
+
+    /* Contact */
+    .contact-right{
+        font-size: 14px;
+    }
+    
+ }
+/* Break point 479px */
+@media screen and (max-width:479px){
+    /* Home Page */
+    .home-page{
+        flex-direction: column-reverse;
+    }
+    .text-container{
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .img{
+        width: 100%;
+    }
+    .icons{
+        width: 100%;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    /* About Page */
+    .about-content{
+        flex-direction: column;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .about-text{
+        width: 100%;
+        margin-top: 40px;
+    }
+    /* Skills */
+    .feature-card{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .feature-card:nth-child(3){
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    /* Projects */
+    .project-heading{
+        margin-top: 0px;
+    }
+    .project-slider{
+        width: 400px;
+        height: 270px;
+    }
+    .slide-left{
+        margin-top: 40px;
+    }
+    .project-no{
+        top: 10px;
+        font-size: 12px;
+    }
+    .slide-heading{
+        font-size: 16px;
+    }
+    .slide-subheading{
+        font-size: 10px;
+    }
+    .slide-tech-head{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .tech-item{
+        font-size: 10px;
+    }
+    .tech-item span{
+        font-size: 12px;
+    }
+    .cv-home{
+        height: 200px;
+        width: 100px;
+        left: 30px;
+        top: 40px;
+    }
+    .cv-about{
+        height: 150px;
+        width: 100px;
+        right: 9px;
+        bottom: 30px;
+        
+    }
+    .usabilityhub{
+        margin-top: 40px;
+        height: 200px;
+        width: 100px;
+    }
+    .project-link{
+        position: absolute;
+        flex-direction: column;
+        bottom: 70px;
+        left: 0;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .project-link_second{
+        font-size: 14px;
+    }
+    .contact-right{
+        font-size: 12px;
+        margin-left: 10%;
+    }
+    .footer{
+        font-size: 14px;
+    }
+}
