@@ -32,7 +32,7 @@ var manualnav = function(manual){
     btns.forEach((btn, i)=>{
         btn.addEventListener("click",()=>{
             manualnav(i);
-            currentslide = i;   2
+            currentslide = i;   
         });
     });
 
@@ -59,5 +59,5 @@ var manualnav = function(manual){
         repeater();
     }
 
-    // repeat();
+    repeat();
 
