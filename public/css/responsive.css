@@ -143,6 +143,10 @@
     .img{
         width: 100%;
     }
+    .animation-text{
+        text-align: left;
+        margin-left: 20%;
+    }
     .icons{
         width: 100%;
         flex-direction: row;
@@ -176,7 +180,7 @@
         margin-top: 0px;
     }
     .project-slider{
-        width: 400px;
+        width: 350px;
         height: 270px;
     }
     .slide-left{
@@ -220,16 +224,21 @@
         height: 200px;
         width: 100px;
     }
+    .tech-ul{
+        margin-left: 20px;
+    }
     .project-link{
         position: absolute;
         flex-direction: column;
         bottom: 70px;
-        left: 0;
+        left: -15px;
         font-size: 14px;
         margin-top: 8px;
     }
     .project-link_second{
+        margin-top: 5px;
         font-size: 14px;
+        padding-left: 20px;
     }
     .contact-right{
         font-size: 12px;
@@ -237,5 +246,18 @@
     }
     .footer{
         font-size: 14px;
+    }
+    .contact-content{
+        flex-direction: column;
+    }
+    .contact-left{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .contact-right{
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+        margin-left: 25%;
     }
 }
