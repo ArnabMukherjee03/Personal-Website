@@ -61,3 +61,19 @@ var manualnav = function(manual){
 
     repeat();
 
+
+    const darkButton = document.querySelector(".dark-button");
+    const moonIcon = document.querySelector(".fa-moon");
+    const sunIcon = document.querySelector(".fa-sun");
+    darkButton.onclick = ()=>{
+        document.body.classList.toggle("add-dark");
+        if(document.body.classList.contains("add-dark")){
+           moonIcon.style.display = "none";
+           sunIcon.style.display = "block";
+        }else{
+            moonIcon.style.display = "block";
+            sunIcon.style.display = "none";
+        }
+
+    }
+
