@@ -12,9 +12,12 @@ const textLoad = ()=>{
     setTimeout(()=>{
         text.textContent = "Web Developer";
     },4000);
+    setTimeout(()=>{
+        text.textContent = "Freelancer";
+    },8000);
 }
 textLoad();
-setInterval(textLoad,8000);
+setInterval(textLoad,12000);
 
 var slides = document.querySelectorAll('.slide');
 var btns = document.querySelectorAll('.dot-btn');
